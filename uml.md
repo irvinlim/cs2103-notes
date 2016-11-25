@@ -3,10 +3,10 @@
 ## Class diagrams
 A **class diagram** describes the structure of a system by showing the system's classes, their attributes, methods, and relationships among objects.
 
-<img src="images/class-diagram.svg">
+<img src="https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/class-diagram.svg">
 
 ### Relationships
-<img src="images/uml-arrows.svg" width="400">
+<img src="https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/uml-arrows.svg" width="400">
 
 - **Association**: `A` is associated with `B` if `A` holds a reference to `B` at the class level.
   - e.g. A `Table` instance holds an array of `Chair` instances, declared at the class level.
@@ -31,7 +31,7 @@ Associations (denoted by lines between two classes) can be replaced by an attrib
 #### Association classes
 Sometimes there needs to be a class to store additional information about an association - for example, the `marriageDate` of a `Marriage` association between a `Husband` and a `Wife`.
 
-<img src="images/association-class.svg" width="300">
+<img src="https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/association-class.svg" width="300">
 
 ### Visibility
 - `+`: `public`
@@ -51,12 +51,12 @@ Commonly used multiplicities:
 ## Object diagrams
 An **object diagram** shows an object structure at a given point of time while a class diagram represents the general situation.
 
-<img src="images/object-diagram.svg" width="500">
+<img src="https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/object-diagram.svg" width="500">
 
 ## Sequence diagrams
 A **sequence diagram** captures the interactions between multiple objects for a given scenario.
 
-<img src="images/sequence-diagram.svg" width="1000">
+<img src="https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/sequence-diagram.svg" width="1000">
 
 ### Elements of SD
 - **Entities**: Actors or components involved in the interaction
@@ -80,7 +80,7 @@ Operations which instantiate a new instance of an object can be represented usin
 
 Destruction causes the lifeline to stop at the point of destruction. It has no return value. In languages with automatic memory management (e.g. Java), destruction is usually not depicted or handled by the developer.
 
-<img src="images/creation-destruction.svg" width="400">
+<img src="https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/creation-destruction.svg" width="400">
 
 ### Self-calls
 Objects can call operations which invoke its own methods (sending messages to itself) using **nested activation bars**.
@@ -103,7 +103,7 @@ An **activity diagram** can be used to describe a workflow, and consists of a se
 - **Forks/joins**: Represents parallel/concurrent flows of control. All concurrent paths should complete at the *join* before execution is allowed to continue after on the outgoing control flow.
 - **Rake**: Represents the inclusion of an external control flow, found in a subsidiary diagram.
 
-<img src="images/activity-diagram.svg" width="800">
+<img src="https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/activity-diagram.svg" width="800">
 
 ### Swimlane diagrams
 A **swimlane diagram** is an activity diagram which is partitioned to identify the actors involved in each action.
