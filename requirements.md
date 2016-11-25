@@ -118,7 +118,7 @@ Extensions:
 #### Use case diagram
 **Use case diagrams** help to give an overview of a set of use cases (a kind of a "graphical table of contents" for the use cases).
 
-<img src="images/use-case-diagram.svg" width="500">
+<img src="https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/use-case-diagram.svg" width="500">
 
 ### Glossary
 A glossary serves to ensure that all stakeholders have a common understanding of the noteworthy terms, abbreviation, acronyms etc.

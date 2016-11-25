@@ -30,7 +30,7 @@ An abstract class cannot be instantiated, as it is considered incomplete. Only c
 
 In UML, an abstract class or method is depicted with the keyword `{abstract}`, as follows:
 
-![](images/abstract-classes-methods.svg)
+![](https://cdn.rawgit.com/irvinlim/cs2103-notes/master/images/abstract-classes-methods.svg)
 
 ## Polymorphism
 > Polymorphism is the ability to treat objects of different types in a similar manner.
